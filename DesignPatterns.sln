@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{91C46CDB-A668-4702-8273-8E386C5BBBB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{04A568D2-112B-40E5-ADDD-562738B8A8F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{91C46CDB-A668-4702-8273-8E386C5BBBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91C46CDB-A668-4702-8273-8E386C5BBBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91C46CDB-A668-4702-8273-8E386C5BBBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A568D2-112B-40E5-ADDD-562738B8A8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A568D2-112B-40E5-ADDD-562738B8A8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A568D2-112B-40E5-ADDD-562738B8A8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A568D2-112B-40E5-ADDD-562738B8A8F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
