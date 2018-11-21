@@ -10,6 +10,11 @@ namespace Facade
     {
         static void Main(string[] args)
         {
+            DocumentManager document = new DocumentManager();
+            document.Customer = "FUN4A";
+            document.ArticleList = new List<int> { 1, 2, 4 };
+            document.CreateDocument();
+            Console.ReadKey();
         }
     }
 }

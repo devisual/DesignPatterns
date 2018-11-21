@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9AE24A24-AA28-4C73-9F02-96E8C42A15A4}</ProjectGuid>
+    <ProjectGuid>{FF54A787-CBAB-4AFF-98A0-0D91586C8854}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Facade</RootNamespace>
-    <AssemblyName>Facade</AssemblyName>
+    <RootNamespace>Adapter</RootNamespace>
+    <AssemblyName>Adapter</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DocumentElement.cs" />
-    <Compile Include="DocumentHeader.cs" />
-    <Compile Include="DocumentManager.cs" />
+    <Compile Include="IWeight.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Weight.cs" />
+    <Compile Include="WeightSerialPort.cs" />
+    <Compile Include="WeightSerialPortAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

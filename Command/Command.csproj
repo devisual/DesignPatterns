@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9AE24A24-AA28-4C73-9F02-96E8C42A15A4}</ProjectGuid>
+    <ProjectGuid>{DA61FDBD-32CE-46BB-86E1-3615334B97DE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Facade</RootNamespace>
-    <AssemblyName>Facade</AssemblyName>
+    <RootNamespace>Command</RootNamespace>
+    <AssemblyName>Command</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DocumentElement.cs" />
-    <Compile Include="DocumentHeader.cs" />
-    <Compile Include="DocumentManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
