@@ -42,8 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DepartmentAssignment.cs" />
+    <Compile Include="DepartmentAssignmentFactory.cs" />
+    <Compile Include="DepartmentFinanceFactory.cs" />
+    <Compile Include="DepartmentHumanResourcesFactory.cs" />
+    <Compile Include="DepartmentITFactory.cs" />
+    <Compile Include="Finance.cs" />
+    <Compile Include="HumanResources.cs" />
+    <Compile Include="IDepartment.cs" />
+    <Compile Include="IT.cs" />
+    <Compile Include="IWorker.cs" />
+    <Compile Include="John.cs" />
+    <Compile Include="Mandy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sam.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

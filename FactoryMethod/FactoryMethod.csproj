@@ -43,13 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FactoryMethod.cs" />
+    <Compile Include="DeviceFactory.cs" />
     <Compile Include="Device.cs" />
     <Compile Include="MobilePhone.cs" />
+    <Compile Include="MobilePhoneFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TVFactory.cs" />
     <Compile Include="TVSat.cs" />
     <Compile Include="WashingMachine.cs" />
+    <Compile Include="WashingMachineFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

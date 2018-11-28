@@ -10,7 +10,8 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            Device _device = FactoryMethod.GetDevice(3);
+            DeviceFactory factory = new MobilePhoneFactory();
+            Device _device = factory.GetDevice();
             Console.WriteLine($@"{_device.Name} has price {_device.GetDevicePrice()}.");
             Console.ReadKey();
         }
